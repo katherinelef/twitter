@@ -9,10 +9,13 @@ function addText() {
 var input = document.getElementById("text").value;
 /*document.getElementById("message").innerHTML = input;
 }*/
-var parrafo = document.createElement("div");
+var message = document.createElement("div");
 var contenido = document.createTextNode(input);
-parrafo.appendChild(contenido);
+message.appendChild(contenido);
 
-document.body.appendChild(parrafo);
+message.classList.add ("message")
+
+var main = document.getElementById("box-image")
+main.appendChild(message);
 
 }
