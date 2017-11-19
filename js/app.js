@@ -3,19 +3,19 @@ window.onload = function () {
 var button = document.getElementById("button");
   button.addEventListener("click", addText);
 //evento para agregar contador de letras//
-var text = document.getElementById("text");
-    text.addEventListener("keyup", addAccount);
+var textArea = document.getElementById("text");
+  textArea.addEventListener("keyup", addAccount);
 };
 
 //creando funcion para addText//
 function addText() {
   var length = document.getElementById("text").value.length;
     if (length>"0" & length<="140"){
-      var input = document.getElementById("text").value;
+      var textArea = document.getElementById("text").value;
       var container = document.createElement("div");
       var message= document.createElement("p");
       var date = new Date();
-      var content = document.createTextNode(input +" "+ date.getHours()+":"+date.getMinutes());//añadir hora//
+      var content = document.createTextNode(textArea +" "+ date.getHours()+":"+date.getMinutes());//añadir hora//
       var main = document.getElementById("box-image")
         container.appendChild(message);
         message.appendChild(content);
