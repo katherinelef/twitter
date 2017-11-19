@@ -6,8 +6,8 @@ body {
 /*estilo al header*/
 header {
   background: #6ad2f3;
-  margin-top: 0;
   height: 50px;
+  margin-top: 0;
   }
 
 h1 {
@@ -27,68 +27,71 @@ main {
 }
 
 .box-left {
-  height: 30%;
-  width: 40%;
   background: white;
   display: inline-block;
-  margin: 1% 6%;
   font-family:monospace;
+  height: 30%;
+  margin: 1% 6%;
   padding-left: 20px;
+  width: 40%;
 }
 
 .box-left :nth-child(1){
-padding-top: 20px;
   font-size: 15px;
+  padding-top: 20px;
 }
 
 .box-left :nth-child(4){
-  padding-top: 30px;
   color:#0080ff;
+  padding-top: 30px;
 }
-
 
 #myForm {
-  display: inline-block;
   background: white;
+  display: inline-block;
   height: 30%;
-  width: 40%;
-  vertical-align: top;
   margin-top: 1%;
+  vertical-align: top;
+  width: 40%;
 }
 
+/*estilo al textArea*/
 #text {
-  width: 100%;
   height: 70%;
-  box-sizing: border-box;
-  padding-left: 10px;
   border: none;
+  box-sizing: border-box;
   font-family:monospace;
+  padding-left: 10px;
+  width: 100%;
 }
 
+/*estilo al boton twitter*/
 #button {
   background: #6ad2f3;
   color: white;
   font-family: cursive;
   height: 35px;
-  width: 90px;
   margin-left: 10px;
+  width: 90px;
 }
 
+/*estilo al mensaje añadido debajo*/
 .message {
-  display: block;
   background: white;
-  height: 8%;
-  width: 1165px;
-  margin: 1% 6%;
   border-radius: 5px;
+  display: block;
   font-family:monospace;
+  height: 8%;
+  margin: 1% 6%;
+  width: 1165px;
 }
 
+/*estilo al contador de caracteres*/
 #contador {
-  display: inline-block;
-  height: 25px;
-  width: 30px;
-  float: right;
-  margin-right: 20px;
   color:black;
+  display: inline-block;
+  float: right;
+  height: 25px;
+  margin-right: 20px;
+  width: 30px;
 }
