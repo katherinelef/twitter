@@ -38,4 +38,4 @@ En este reto, vamos a replicar el newsfeed de **Twitter**
 ## Resultado
 
 ![Twitter newafeed1](assets/twitter-1.png)
-![Twitter newafeed2](assets/twitter-2.png)
+![Twitter newafeed2](assets/twitteer-2.png)
