@@ -61,8 +61,16 @@ main {
   border: none;
   box-sizing: border-box;
   font-family:monospace;
-  padding-left: 10px;
+  margin-bottom: 0;
+  outline: none;
+  padding: 10px;
+  resize: none;
   width: 100%;
+}
+
+/*estilo al hr dentro del form*/
+hr {
+  margin-top: 0;
 }
 
 /*estilo al boton twitter*/

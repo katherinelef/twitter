@@ -24,6 +24,7 @@ function addText() {
         document.getElementById("text").value="";//borrar mensaje escrito en el input //
         document.getElementById("contador").value="140";
         document.getElementById("contador").style.color="black";
+        document.getElementById('text').focus();
       }
   };
 
@@ -50,3 +51,6 @@ function addAccount (){
       contador.value =("-"+(longitud-max));
     }
 };
+
+//ubicando el focus en el  textArea//
+document.getElementById('text').focus();
